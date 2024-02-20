@@ -1,0 +1,15 @@
+cat include/qw_defs.h | lp -dLA210
+cat include/qw_buffio.h qw_buffio.c | lp -dLA210
+cat include/qw_ewhand.h qw_ewhand.c | lp -dLA210
+cat include/qw_termio.h qw_termio.c | lp -dLA210
+cat include/qw_cursor.h qw_cursor.c | lp -dLA210
+cat include/qw_text.h qw_text.c | lp -dLA210
+cat include/qw_edit.h qw_edit.c | lp -dLA210
+cat include/qw_menu.h include/qw_menustruct.h qw_menu.c | lp -dLA210
+cat include/qw_block.h qw_block.c | lp -dLA210
+cat include/qw_search.h qw_search.c | lp -dLA210
+cat include/qw_info.h include/qw_helpstruct.h qw_info.c | lp -dLA210
+cat include/qw_fileio.h qw_fileio.c | lp -dLA210
+cat include/qw_unix.h qw_unix.c | lp -dLA210
+cat main.c | lp -dLA210
+
